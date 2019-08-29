@@ -1,0 +1,27 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "test project for virtusa tech",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "Nikhil Asarkar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.2.0",
+    "mongo-unit": "^1.4.5",
+    "mongoose": "^5.6.11"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
+}
